@@ -23,7 +23,7 @@
 </p>
 
 ## Data
-Due to the lack of github lsf quota, the data folder exists on Google Drive ([link](https://drive.google.com/drive/folders/1boXhoSpWyvq2kUX6FERYrOwnurGczAAR?usp=share_link)), 
+Due to the lack of github lsf quota, the data folder exists on Google Drive ([link](https://drive.google.com/drive/folders/1boXhoSpWyvq2kUX6FERYrOwnurGczAAR?usp=share_link)) or Baidu Netdisk[link](https://pan.baidu.com/s/1231wwhzcipkTosPdC-46xQ?pwd=7ivq), 
 which needs to be downloaded and moved to the main directory.
  
 ### CSCD-IME
