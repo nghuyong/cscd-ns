@@ -46,6 +46,13 @@ It can be found in `./data/lcsts-ime-2m` and the format is the same as CSCD-IME.
 
 ## Build Pseudo Dataset
 
+Install requirements:
+```bash
+pip install https://github.com/kpu/kenlm/archive/master.zip
+pip install -r requirements.txt
+```
+
+Build:
 ```bash
 cd pseudo-data-construction
 python build.py
