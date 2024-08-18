@@ -117,14 +117,24 @@ bad cases:
 ```
 
 ## Citation
-CSCD-NS: a Chinese Spelling Check Dataset for Native Speakers [[pdf]](https://arxiv.org/abs/2211.08788)
+CSCD-NS: a Chinese Spelling Check Dataset for Native Speakers [[pdf]](https://aclanthology.org/2024.acl-long.10.pdf)
 ```
-@misc{hu2024cscdns,
-      title={CSCD-NS: a Chinese Spelling Check Dataset for Native Speakers}, 
-      author={Yong Hu and Fandong Meng and Jie Zhou},
-      year={2024},
-      eprint={2211.08788},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{hu-etal-2024-cscd,
+    title = "{CSCD}-{NS}: a {C}hinese Spelling Check Dataset for Native Speakers",
+    author = "Hu, Yong  and
+      Meng, Fandong  and
+      Zhou, Jie",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.acl-long.10",
+    pages = "146--159",
+    abstract = "In this paper, we present CSCD-NS, the first Chinese spelling check (CSC) dataset designed for native speakers, containing 40,000 samples from a Chinese social platform. Compared with existing CSC datasets aimed at Chinese learners, CSCD-NS is ten times larger in scale and exhibits a distinct error distribution, with a significantly higher proportion of word-level errors. To further enhance the data resource, we propose a novel method that simulates the input process through an input method, generating large-scale and high-quality pseudo data that closely resembles the actual error distribution and outperforms existing methods. Moreover, we investigate the performance of various models in this scenario, including large language models (LLMs), such as ChatGPT. The result indicates that generative models underperform BERT-like classification models due to strict length and pronunciation constraints. The high prevalence of word-level errors also makes CSC for native speakers challenging enough, leaving substantial room for improvement.",
 }
+
 ```
